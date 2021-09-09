@@ -1,4 +1,4 @@
-# Exemple de Grouper Par dans Power Apps
+# Exemple de Grouper Par
 
 ## Filtrer, Grouper Par et faire une somme dans une nouvelle colonne formaté pour afficher en euros
 

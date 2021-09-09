@@ -1,4 +1,4 @@
-# Formule d'update de DataCard
+# Exemple de formule d'update de DataCard
 
 ## Champ SharePoint de type Lookup 
 
@@ -14,11 +14,11 @@ L'update va utiliser le connecteur SharePoint en faisant référence au champ qu
     If(!(IsBlank(DataCardValueXX.Selected));{
     '@odata.type':"#Microsoft.Azure.Connectors.SharePoint.SPListExpandedReference";
     Id: LookUp(Contrat; 'N° de contrat' = DataCardValueXX.Selected.'N° de contrat'; ID);
-    Value: DataCardValue16.Selected.'Code Contrat'
+    Value: DataCardValueXX.Selected.'Code Contrat'
     })
 
-La Value pourrait aussi être remonté via un Lookup si elle n'est pas présente dans votre collection.
+La Value pourrait aussi être remontée via un Lookup si elle n'est pas présente dans votre collection.
 
-La méthode de Lookup permet aussi de remonter des valeurs d'une colonne elle aussi de type Lookup, par exemple je remonte la valeur de la colonne Structure dans la liste Bureaux en fonction du choix de Bureau :
+La méthode de Lookup permet aussi de remonter des valeurs d'une colonne qui est elle-même de type Lookup, par exemple je remonte la valeur de la colonne Structure dans la liste Bureaux en fonction du choix de Bureau :
 
-    LookUp(Bureaux; Bureau = DataCardValue8.Selected.Value; Structure.Value)
+    LookUp(Bureaux; Bureau = DataCardValueX.Selected.Value; Structure.Value)
