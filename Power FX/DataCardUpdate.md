@@ -1,6 +1,9 @@
-# Exemple de formule d'update de DataCard
+**Vous trouverez dans cette page quelques exemples de formule d'update de DataCard**
 
-## Champ SharePoint de type Lookup 
+- [Update d'un champ SharePoint de type Lookup](#update-dun-champ-sharepoint-de-type-lookup)
+
+
+# Update d'un champ SharePoint de type Lookup
 
 Si vous avec surcharger la liste des items, il faut alors modifier l'update de la DataCard pour que la sélection soit reconnue.
 
