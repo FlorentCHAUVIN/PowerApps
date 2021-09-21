@@ -10,6 +10,7 @@ Bien entendu, je décline toute responsabilité sur l'usage que vous pourriez fa
 # SOMMAIRE
 
 - [Power FX](Power%20FX)
+  - [Condition](Power%20FX/Condition.md)
   - [DataCard Update](Power%20FX/DataCardUpdate.md)
   - [Format Currency](Power%20FX/Format%20Currency.md)
   - [Group By](Power%20FX/GroupBy.md)
