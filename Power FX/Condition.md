@@ -1,8 +1,8 @@
 **Vous trouverez dans cette page quelques exemples de Condition**
 
+- [Envoyer une notification si la valeur saisie est négative](#envoyer-une-notification-si-la-valeur-saisie-est-négative)
 
-
-# Envoyer une notifcation si la valeur saisie est négative
+# Envoyer une notification si la valeur saisie est négative
 
 Dans ce cas de figure, je gère des mouvements de budget entre plusieurs services au travers Power Apps et et d'un modèle de donnée géré avec des listes SharePoint.
 Et il faut que j'affiche des notifications en fonction du choix effectuée dans une liste déroulante et de la somme saisie selon la logique suivante :
